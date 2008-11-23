@@ -1299,16 +1299,203 @@ p{
         margin-left: 18%;
         margin-top: 7px;
      }
+     .image_blue{
+         height: auto;
+     }
     .our_contacts {
         background-color: white;
-         /* width: 86% !important;  */
-        height: 306px !important;
+         width: 20% !important; 
+        height: 320px !important;
         border-radius: 20px;
-        margin: 0px !important;
+        margin: 30px !important;
         padding: 10px !important;
     }
     form{
-        margin: 0px;
+        margin: 30px;
+        padding: 0px;
+        /* width: 310px; */
+    }
+    .tel{
+        /* width: 132px; */
+    }
+    #partenaires {
+        flex-wrap: wrap;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .logo_partenaires{
+        margin-top: 33px;
+    }
+    
+    .logo_partenaires h2 {
+        margin-left: 0%;
+        text-align: center;
+    }
+    .nos_partenaire_logo{
+        width: 168px;
+    }
+   
+    hr{
+        display: none;
+    }
+    #reseaux_sociaux {
+        flex-wrap: wrap;
+    }
+    .tous_reseaux {
+        flex-wrap: wrap;
+    }
+    .vincent_DG P {
+        margin-right: 0px; 
+    }
+    .vincent {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .message{
+        width: 293px;
+    }
+    .bottom_contact {
+        display: flex;
+        margin-right: 0px; 
+    }
+    .reseau3 {
+        padding: 4%; 
+        width: 231px;
+    }
+    /*footer*/
+    hr{
+        display: none;
+    }
+    footer{
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+    .logoreseaux{
+        display: inline-flex !important;
+    }
+    #facebook{
+        margin-left: 50px;
+    }
+    #facebook p{
+        margin-left: 29px;
+    }
+    #twitter{
+        margin-left: 30px;
+    }
+    #twitter p{
+        margin-left: 25px;
+    }
+    .Logo_copyrith{
+       display: none;
+    }
+}
+
+/* responsive 2560 */
+@media all and (max-width: 2560px){
+    body{
+        margin: 0%;
+    }
+    .marge-gauche-droite{
+        margin: 0 auto;
+        width: 70%;
+    }
+    .logo{
+        width: 45px;
+        height: 45px;
+    }
+    #en-tête{
+        height: 51px;
+    }
+    nav{
+        margin-top: 4px !important;
+        margin-right: 0px !important;
+    }
+
+    h2 {
+         font-size: 15px;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .our_services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 6%;
+    }
+    .services1{
+        margin: 15px;
+    }
+    .img_parc{
+        width: 305px;
+    }
+    /* .image_depannage {
+        display: none;
+    } */
+/* 
+    .logo_reseau, .conseil-informatique-picto2 {
+        display: none;
+    } */
+    .title_section2 p, .title_installation p, .title_gestion_globale p {
+        font-size: 30px;
+        /* text-align: center !important; */
+    }
+    .section2, .section4 {
+       margin: 0px;
+       padding: 10px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .section3 {
+        /* display: flex; 
+         justify-content: space-around; */
+         margin: 0px; 
+    }
+    
+    .title_installation {
+        margin-left: 0px; 
+        padding: 10px;
+    }
+    
+    .temoignage, .temoin1{
+        width: 227px !important;
+    }
+    .temoignage_bloc1, .image_blue {
+        flex-wrap: wrap;
+        padding: 5px;
+        margin-top: 5% !important;
+    }
+    .btn-1{
+        background-color: #1565D4;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-left: 13%;
+     } 
+    
+     .btn-2{
+        background-color: #1565D4;
+        width: 200px !important;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-left: 18%;
+        margin-top: 7px;
+     }
+     .image_blue{
+         height: auto;
+     }
+    .our_contacts {
+        background-color: white;
+         width: 20% !important; 
+        height: 320px !important;
+        border-radius: 20px;
+        margin: 30px !important;
+        padding: 10px !important;
+    }
+    form{
+        margin: 30px;
         padding: 0px;
         /* width: 310px; */
     }
