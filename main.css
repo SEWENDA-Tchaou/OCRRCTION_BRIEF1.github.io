@@ -1304,12 +1304,13 @@ p{
      }
     .our_contacts {
         background-color: white;
-         width: 20% !important; 
+         width: auto !important; 
         height: 320px !important;
         border-radius: 20px;
         margin: 30px !important;
         padding: 10px !important;
     }
+    
     form{
         margin: 30px;
         padding: 0px;
@@ -1488,7 +1489,7 @@ p{
      }
     .our_contacts {
         background-color: white;
-         width: 20% !important; 
+         /* width: 20% !important;  */
         height: 320px !important;
         border-radius: 20px;
         margin: 30px !important;
