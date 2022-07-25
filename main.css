@@ -1,11 +1,9 @@
-cd tra
+
 body{
     margin: 0;
 }
 
-header{
-    background-image: url('img/MI.jpg');
-    height: 100vh;
+.mi{
     width: 100%;
     background-size: cover;
 }
@@ -37,19 +35,19 @@ h2{
     margin-top: 50px;
 }
 
- #en-tête{
+#en-tête{
      display: flex;
      justify-content: space-between;
      text-align: center;
      position: fixed;
      background-color:  white;
-     margin-top: -65px;
-     width: 100vw;
+     margin-top: 0px;
+     width: 100%;
      height: 150px;
+     z-index: 3;
+}
 
- }
-
- nav{
+nav{
       margin: auto;
       word-spacing: 4px;
       margin-right: 200px;
@@ -61,17 +59,19 @@ h2{
 a:hover{
       color: red;
     }
-
- a{
+.title_gestion_globale p, .title_installation p, .title_section2 p, .temoignage_bloc p, .our_contacts p{
+    color: black;
+}
+a{
      color: black;
      text-decoration: none;
      padding: 20px;
- }
+}
 
- .logo{
+.logo{
      margin-left: 200px;
-     margin-top: 64px !important;
- }
+     margin-top: 4px !important;
+}
 
  .title_section1{
      text-align: center;
@@ -102,174 +102,143 @@ a:hover{
     background-color: dodgerblue;
 }
 
- .services1_parc{
+.services1_parc{
     background-color: dodgerblue;
     margin-right: 10%;
     color: white;
- }
+}
  
  .services1_parc p{
      margin-left: 20%;
  }
- .services1 p, .services2, .services_parc{
-   font-size: 40px;
+.services1 p, .services2, .services_parc{
+   font-size: 24px !important;
      color: white;
     text-align: center;
- }
+}
   
- .section2{
+.section2{
      display: flex;
      justify-content: space-between;
      margin-left: 15%;
      margin-right: 20%;
      margin-top: 10%;
- }
+}
 
- .title_section2{
+.title_section2{
      justify-content: space-between;
- }
+}
 
- .title_section2 p{
+.title_section2 p{
      font-size: 45px;
      text-align: justify;
      text-justify: inter-word;
- }
+}
 
- .image_depannage{
+.image_depannage{
      margin: 100px 0 0 200px;
  }
- h3{
-color:  dodgerblue;
-text-decoration: underline;
-font-size: 45px;
+  h3{
+    color:  dodgerblue;
+    text-decoration: underline;
+    font-size: 45px;
  }
 
- .section3{
+.section3{
      display: flex;
      justify-content: space-around;
      margin-right: 5%;
      margin-left: 15%;
- }
+}
 
- .title_installation {
+.title_installation {
     margin-left: 100px;
- }
+}
 
- .title_installation p{
+.title_installation p{
      font-size: 45px;
      text-align: justify;
      text-justify: inter-word;
- }
+}
 
- .logo_reseau{
+.logo_reseau{
      margin-top: 200px;
- }
+}
 
- .section4{
+.section4{
      display: flex;
      justify-content: space-around;
      margin-right: 10%;
      margin-left: 10%;
- }
+}
 
- .title_gestion_globale h2{
+.title_gestion_globale h2{
       color: dodgerblue;
       text-decoration: underline;
- }
+}
 
- .title_gestion_globale p{
+.title_gestion_globale p{
      font-size: 45px;
      text-align: justify;
      text-justify: inter-word;
- }
+}
 
- .conseil-informatique-picto2{
+.conseil-informatique-picto2{
      margin: 200px 0 0 100px;
- }
+}
 
- #title_temoignage, #contact h2{
+#title_temoignage, #contact h2{
     text-align: center;
- }
- .temoignage{
+}
+.temoignage{
      background-color: #C4C4C4;
      width: 300px;
      height: 205px;
      border-radius: 20px;
- }
- .temoin1{
+}
+.temoin1{
      background-color: #D6E6DA;
      width: 300px;
      height: 200px;
      border-radius: 20px;
- }
+}
 
- .temoin1 p{
+.temoin1 p{
      padding-left: 20px;
      padding-right: 20px;
- }
- .vincent{
+}
+.vincent{
      display: flex;
      justify-content: space-between;
- }
+}
 
- .vincent_DG P{
+.vincent_DG P{
     margin-right: 170px;
- }
+}
  .homme_heureur{
      margin-top: 20px;
      margin-left: 20px;
- }
- 
- .temoignage_bloc1{
+}
+
+.temoignage_bloc1{
      display: flex;
      justify-content: space-around;
-     margin-top: 5%;
- }
+}
 
- .temoignage_bloc{
-     padding-left: 10%;
-     padding-right: 10%;
- }
+/* .temoignage_bloc{
+     padding-left: 0%;
+     padding-right: 0%;
+} */
 
-.btn-1{
-    background-color: #1565D4;
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-    border: 1px solid #1565D4;
-    margin-left: 45%;
-    margin-top: 2%; 
-
- } 
-
- .btn-2{
-    background-color: #1565D4;
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-    border: 1px solid #1565D4;
-    margin-left: 40%;
-    margin-top: 4%;
-    position: relative;
- }
- 
-
- .btn-1, .btn-2{
-    font-size: 25px;
-    color: white;
-    margin-top: 4%;
-    filter: contrast(100%);
- }
-
- .image_blue{
-     background-image: url( "image_fond_bleu.png" );
+.image_blue{
+     background-image: url( "./img/image_fond_bleu.png" );
      width: 100%;
      height: 500px;
      background-size: cover;
      justify-content: space-around;
- }
+}
 
- .our_contacts{
+.our_contacts{
      background-color: white;
      width: 15%;
      height: 350px;
@@ -278,62 +247,55 @@ font-size: 45px;
      margin-left: 10%;
      padding-top: 50px;
      padding-left: 30px;
- }
+}
 
- .whatsapp{
+.whatsapp{
      display: flex;
- }
+}
 
- .contact_first_line{
+.contact_first_line{
      display: flex;
      padding-right: 12px;
- }
- .image_blue{
+}
+.image_blue{
      display: flex;
      justify-content: space-around;
- }
- form{
+     height: 557px;
+}
+form{
      margin-right: 30px;
      margin-top: 70px;
      padding-top: 30px;
- }
- 
- input{
+}
+
+input{
      border: none;
      outline: none;
      border-bottom: 1px solid black;
      background: none;
      margin-right: 8px;
- }
+}
 
- #partenaires{
+#partenaires{
      display: flex;
      justify-content: space-between;
      margin-left: 20%;
      margin-right: 20%;
      margin-top: 10%;
- }
+}
 
- .logo_partenaires h2{
+.logo_partenaires h2{
     margin-left: 46%;
     margin-top: 5%;
- }
+}
 
- .localisation{
+.localisation{
      margin-top: 5%;
  }
  iframe{
      width: 100%;
      height: 500px;
  }
-
- footer{
-     background-color: black;
-     width: 100%;
-     height: 350px;
-     
- }
-
  #reseaux_sociaux{
      display: flex;
      width: 100%;
@@ -369,36 +331,54 @@ hr{
     margin-left: 14%;
 }
 
-.copyrigth p{
-    color: white;
-    width: 200px;
-    margin-left: 10px;
-}
-.footer_right p{
-    color: white;
-    font-size: 25px;
-}
-
-
 .bottom_contact{
      display: flex;
      margin-right: 20px;
 }
+/* footer*/
+footer{
+    background-color: black;
+    display: flex;
+}
+footer p{
+     color: #2196f3;
+ }
+p{
+    color: white;
+}
 
+.reseaux-sociaux, .message{
+    display: flex;
+}
+.Logo_copyrith{
+    display: flex;
+    background-color: white;
+    width: 50px;
+    height: 40px;
+}
+
+.ryght{
+    width: 169px;
+    margin-left: 17px;
+    margin-top: 0px;
+}
+/* reponsive 320 */
 @media all and (max-width: 320px){
     body{
         margin: 0%;
     }
+   
     .logo{
         margin-left: 0px;
     }
     h2 {
-         font-size: 15px; 
+         font-size: 15px;
         text-transform: uppercase;
         text-decoration: underline;
     }
+
     .our_services {
-        display: flex; 
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin-top: 10%;
@@ -421,52 +401,44 @@ hr{
        padding: 10px;
     }
     h3 {
-        font-size: 28px;
+        font-size: 24px !important;
     }
     .section3 {
-        /* display: flex; 
-         justify-content: space-around; */
-         margin: 0px; 
+         margin: 0px;
     }
     .logo_reseau, .conseil-informatique-picto2 {
         display: none;
     }
     .title_installation {
-        margin-left: 0px; 
+        margin-left: 0px;
         padding: 10px;
-    
     }
     .temoignage_bloc1, .image_blue {
         flex-wrap: wrap;
         padding: 5px;
     }
-    .btn-1 {
-        margin-left: 0%; 
-    }
     .our_contacts {
         background-color: white;
-         width: 100% !important; 
-        height: 350px;
+         width: 100% !important;
+        height: 306px !important;
         border-radius: 20px;
-        margin-top: 30px;
-        margin-left: 0%;
+        margin-top: 6px !important;
+        padding-left: 21px !important;
         padding-top: 0px;
-        padding-left: 0px;
     }
     form{
-        margin: 0px;
-        padding: 0px;
+        margin-top: 28px !important;
+        padding-left: 10px !important;
         width: 310px;
     }
+
     #partenaires {
         flex-wrap: wrap;
     }
     .logo_partenaires{
-        margin-top: 118px;
+        margin-top: 43px !important;
     }
-    .btn-2 {
-        margin-left: 11%;
-    }
+
     .logo_partenaires h2 {
         margin-left: 0%;
         text-align: center;
@@ -474,9 +446,12 @@ hr{
     .nos_partenaire_logo{
         width: 168px;
     }
-    #en-tête {
-        height: 195px;
+    .btn-1{
+        margin-left: 18% !important;
     }
+    /* #en-tête {
+        height: 85px !important;
+    } */
     hr{
         display: none;
     }
@@ -487,7 +462,10 @@ hr{
         flex-wrap: wrap;
     }
     .vincent_DG P {
-        margin-right: 0px; 
+        margin-right: 0px;
+    }
+    .temoignage{
+            margin: 2px;
     }
     .vincent {
         display: flex;
@@ -498,14 +476,46 @@ hr{
     }
     .bottom_contact {
         display: flex;
-        margin-right: 0px; 
+        margin-right: 0px;
     }
     .reseau3 {
-        padding: 4%; 
+        padding: 4%;
         width: 231px;
     }
-    footer {
-        height: 1253px;
+    .image_blue{
+        width: 308px !important;
+    }
+
+    /*footer*/
+    hr{
+        display: none;
+    }
+    footer{
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+    footer p{
+        color: #2196f3;
+        width: 162px !important;
+        font-size: 1rem !important;
+    }
+    .logoreseaux{
+        display: inline-flex !important;
+    }
+    #facebook{
+        margin-left: 50px;
+    }
+    #facebook p{
+        margin-left: 29px;
+    }
+    #twitter{
+        margin-left: 30px;
+    }
+    #twitter p{
+        margin-left: 25px;
+    }
+    .Logo_copyrith{
+       display: none;
     }
 }
 
@@ -518,13 +528,18 @@ hr{
     .logo{
         margin-left: 0px;
     }
+    nav{
+        margin-top: 4px !important;
+        margin-right: 0px !important;
+    }
+
     h2 {
-         font-size: 15px; 
+         font-size: 15px;
         text-transform: uppercase;
         text-decoration: underline;
     }
     .our_services {
-        display: flex; 
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin-top: 10%;
@@ -565,34 +580,48 @@ hr{
     .temoignage_bloc1, .image_blue {
         flex-wrap: wrap;
         padding: 5px;
+        margin-top: 5% !important;
     }
-    .btn-1 {
-        margin-left: 0%; 
-    }
+    .btn-1{
+        background-color: #1565D4;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+     } 
+    
+     .btn-2{
+        background-color: #1565D4;
+        width: 200px !important;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-left: 18%;
+        margin-top: 7px;
+     }
     .our_contacts {
         background-color: white;
-         width: 100% !important; 
-        height: 350px;
+         /* width: 86% !important;  */
+        height: 306px !important;
         border-radius: 20px;
-        margin-top: 30px;
-        margin-left: 0%;
-        padding-top: 0px;
-        padding-left: 0px;
+        margin: 0px !important;
+        padding: 10px !important;
     }
     form{
         margin: 0px;
         padding: 0px;
-        width: 310px;
+        /* width: 302px !important; */
+    }
+    .tel{
+        width: 132px !important;
     }
     #partenaires {
         flex-wrap: wrap;
     }
     .logo_partenaires{
-        margin-top: 118px;
+        margin-top: 33px;
     }
-    .btn-2 {
-        margin-left: 11%;
-    }
+    
     .logo_partenaires h2 {
         margin-left: 0%;
         text-align: center;
@@ -600,9 +629,7 @@ hr{
     .nos_partenaire_logo{
         width: 168px;
     }
-    #en-tête {
-        height: 195px;
-    }
+   
     hr{
         display: none;
     }
@@ -630,12 +657,36 @@ hr{
         padding: 4%; 
         width: 231px;
     }
-    footer {
-        height: 1253px;
+    /*footer*/
+    hr{
+        display: none;
+    }
+    footer{
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+    .logoreseaux{
+        display: inline-flex !important;
+    }
+    #facebook{
+        margin-left: 50px;
+    }
+    #facebook p{
+        margin-left: 29px;
+    }
+    #twitter{
+        margin-left: 30px;
+    }
+    #twitter p{
+        margin-left: 25px;
+    }
+    .Logo_copyrith{
+       display: none;
     }
 }
 
-/* responsive 425px */
+/* responsive 425*/
+
 @media all and (max-width: 425px){
     body{
         margin: 0%;
@@ -643,13 +694,19 @@ hr{
     .logo{
         margin-left: 0px;
     }
+    nav{
+        margin-top: 4px !important;
+        margin-right: 0px !important;
+        font-size: 14px;
+    }
+
     h2 {
-         font-size: 15px; 
+         font-size: 15px;
         text-transform: uppercase;
         text-decoration: underline;
     }
     .our_services {
-        display: flex; 
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin-top: 10%;
@@ -665,7 +722,7 @@ hr{
     }
     .title_section2 p, .title_installation p, .title_gestion_globale p {
         font-size: 30px;
-        text-align: -webkit-center;
+        text-align: -webkit-center ;
     }
     .section2, .section4 {
        margin: 0px;
@@ -690,34 +747,50 @@ hr{
     .temoignage_bloc1, .image_blue {
         flex-wrap: wrap;
         padding: 5px;
+        margin-top: 5% !important;
     }
-    .btn-1 {
-        margin-left: 0%; 
-    }
+    .btn-1{
+        background-color: #1565D4;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-left: 22% !important;
+     } 
+    
+     .btn-2{
+        background-color: #1565D4;
+        width: 200px !important;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-left: 18%;
+        margin-top: 7px;
+     }
     .our_contacts {
         background-color: white;
-         width: 100% !important; 
-        height: 350px;
+         width: 86% !important; 
+        height: 306px !important;
         border-radius: 20px;
-        margin-top: 30px;
-        margin-left: 0%;
-        padding-top: 0px;
-        padding-left: 0px;
+        margin: 0px !important;
+        padding: 10px !important;
     }
     form{
         margin: 0px;
         padding: 0px;
         width: 310px;
     }
+    .tel{
+        width: 132px !important;
+    }
     #partenaires {
         flex-wrap: wrap;
+        margin-left: 32% !important;
     }
     .logo_partenaires{
-        margin-top: 118px;
+        margin-top: 33px;
     }
-    .btn-2 {
-        margin-left: 11%;
-    }
+    
     .logo_partenaires h2 {
         margin-left: 0%;
         text-align: center;
@@ -725,9 +798,7 @@ hr{
     .nos_partenaire_logo{
         width: 168px;
     }
-    #en-tête {
-        height: 195px;
-    }
+   
     hr{
         display: none;
     }
@@ -755,49 +826,65 @@ hr{
         padding: 4%; 
         width: 231px;
     }
-    footer {
-        height: 1253px;
+    /*footer*/
+    hr{
+        display: none;
+    }
+    footer{
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+    .logoreseaux{
+        display: inline-flex !important;
+    }
+    #facebook{
+        margin-left: 50px;
+    }
+    #facebook p{
+        margin-left: 29px;
+    }
+    #twitter{
+        margin-left: 30px;
+    }
+    #twitter p{
+        margin-left: 25px;
+    }
+    .Logo_copyrith{
+       display: none;
     }
 }
-/* responsive 768 */
+
+/* responsive 768*/
+
 @media all and (max-width: 768px){
     body{
         margin: 0%;
     }
-    header {
-        height: 66vh;
+    .marge-gauche-droite {
+        margin: 0 auto;
+        width: 95% !important;
     }
     .logo{
-        width: 30px;
-        height: 30px;
+        margin-left: 20px !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    #en-tête{
+        height: 36px !important;
+        padding-top: 0px;
+    }
+    nav{
         margin-top: 4px !important;
-         margin: 10px;
+        margin-right: 0px !important;
     }
-    #en-tête {
-        height: 37px !important;
-        margin-top: 0px;
-    }
-    nav {
-        margin: auto;
-        word-spacing: 4px;
-        /* margin-right: 200px; */
-        margin-top: 70px;
-        font-size: 25px;
-        border: 4px;
-        margin-top: 0px;
-    }
-    .services1 p, .services2, .services_parc {
-        font-size: 23px;
-        color: white;
-        text-align: center;
-    }
+
     h2 {
-         font-size: 15px; 
+         font-size: 15px;
         text-transform: uppercase;
         text-decoration: underline;
     }
     .our_services {
-        display: flex; 
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin-top: 10%;
@@ -813,7 +900,7 @@ hr{
     }
     .title_section2 p, .title_installation p, .title_gestion_globale p {
         font-size: 30px;
-        text-align: -webkit-center;
+        /* text-align: justify !important; */
     }
     .section2, .section4 {
        margin: 0px;
@@ -839,34 +926,54 @@ hr{
     .temoignage_bloc1, .image_blue {
         flex-wrap: wrap;
         padding: 5px;
+        margin-top: 5% !important;
     }
-    .btn-1 {
-        margin: auto;
+    #chantal, #sydi, #bertand, #gesika, #vincent, #boubakar{
+        margin-top: 7px;
     }
-    .our_contacts {
-        background-color: white;
-         width: 100% !important; 
-        height: 350px;
+    .btn-1{
+        background-color: #1565D4;
+        width: 200px;
+        height: 50px;
         border-radius: 20px;
-        margin-top: 30px;
-        margin-left: 0%;
-        padding-top: 0px;
-        padding-left: 0px;
+        border: 1px solid #1565D4;
+        margin-left: 13%;
+     } 
+    
+     .btn-2{
+        background-color: #1565D4;
+        width: 200px !important;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-left: 18%;
+        margin-top: 7px;
+     }
+    .our_contacts {
+        width: 58% !important;
+        height: 306px !important;
+        text-align: center;
+    }
+    .whatsapp{
+        justify-content: center;
     }
     form{
         margin: 0px;
         padding: 0px;
-        width: 310px;
+        /* width: 320px; */
+    }
+    .tel{
+        width: 200px;
     }
     #partenaires {
         flex-wrap: wrap;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     .logo_partenaires{
-        margin-top: 118px;
+        margin-top: 33px;
     }
-    .btn-2 {
-        margin-left: 11%;
-    }
+    
     .logo_partenaires h2 {
         margin-left: 0%;
         text-align: center;
@@ -874,9 +981,7 @@ hr{
     .nos_partenaire_logo{
         width: 168px;
     }
-    #en-tête {
-        height: 195px;
-    }
+   
     hr{
         display: none;
     }
@@ -904,8 +1009,387 @@ hr{
         padding: 4%; 
         width: 231px;
     }
-    footer {
-        height: 1253px;
+    /*footer*/
+    hr{
+        display: none;
+    }
+    footer{
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+    .logoreseaux{
+        display: inline-flex !important;
+    }
+    #facebook{
+        margin-left: 50px;
+    }
+    #facebook p{
+        margin-left: 29px;
+    }
+    #twitter{
+        margin-left: 30px;
+    }
+    #twitter p{
+        margin-left: 25px;
+    }
+    .Logo_copyrith{
+       display: none;
     }
 }
+
+/* responsive 1024 */
+@media all and (max-width: 1024px){
+    body{
+        margin: 0%;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    nav{
+        margin-top: 4px !important;
+        margin-right: 0px !important;
+    }
+
+    h2 {
+         font-size: 15px;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .our_services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 10%;
+    }
+    .services1{
+        margin: 15px;
+    }
+    .img_parc{
+        width: 305px;
+    }
+    .image_depannage {
+        display: none;
+    }
+    .title_section2 p, .title_installation p, .title_gestion_globale p {
+        font-size: 30px;
+        text-align: -webkit-center;
+    }
+    .section2, .section4 {
+       margin: 0px;
+       padding: 10px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .section3 {
+        /* display: flex; 
+         justify-content: space-around; */
+         margin: 0px; 
+    }
+    .logo_reseau, .conseil-informatique-picto2 {
+        display: none;
+    }
+    .title_installation {
+        margin-left: 0px; 
+        padding: 10px;
+    
+    }
+    .temoignage_bloc1, .image_blue {
+        flex-wrap: wrap;
+        padding: 5px;
+        margin-top: 5% !important;
+    }
+   
+    .btn-1{
+        background-color: #1565D4;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-left: 13%;
+     } 
+    
+     .btn-2{
+        background-color: #1565D4;
+        width: 200px !important;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-left: 18%;
+        margin-top: 7px;
+     }
+    .our_contacts {
+        background-color: white;
+         /* width: 86% !important;  */
+        height: 306px !important;
+        border-radius: 20px;
+        margin: 0px !important;
+        padding: 10px !important;
+    }
+    form{
+        margin: 0px;
+        padding: 0px;
+        /* width: 310px; */
+    }
+    .tel{
+        /* width: 132px; */
+    }
+    #partenaires {
+        flex-wrap: wrap;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .logo_partenaires{
+        margin-top: 33px;
+    }
+    
+    .logo_partenaires h2 {
+        margin-left: 0%;
+        text-align: center;
+    }
+    .nos_partenaire_logo{
+        width: 168px;
+    }
+   
+    hr{
+        display: none;
+    }
+    #reseaux_sociaux {
+        flex-wrap: wrap;
+    }
+    .tous_reseaux {
+        flex-wrap: wrap;
+    }
+    .vincent_DG P {
+        margin-right: 0px; 
+    }
+    .vincent {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .message{
+        width: 293px;
+    }
+    .bottom_contact {
+        display: flex;
+        margin-right: 0px; 
+    }
+    .reseau3 {
+        padding: 4%; 
+        width: 231px;
+    }
+    /*footer*/
+    hr{
+        display: none;
+    }
+    footer{
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+    .logoreseaux{
+        display: inline-flex !important;
+    }
+    #facebook{
+        margin-left: 50px;
+    }
+    #facebook p{
+        margin-left: 29px;
+    }
+    #twitter{
+        margin-left: 30px;
+    }
+    #twitter p{
+        margin-left: 25px;
+    }
+    .Logo_copyrith{
+       display: none;
+    }
+}
+
+/* responsive 1440 */
+@media all and (max-width: 1440px){
+    body{
+        margin: 0%;
+    }
+    .marge-gauche-droite{
+        margin: 0 auto;
+        width: 70%;
+    }
+    .logo{
+        width: 45px;
+        height: 45px;
+    }
+    #en-tête{
+        height: 51px;
+    }
+    nav{
+        margin-top: 4px !important;
+        margin-right: 0px !important;
+    }
+
+    h2 {
+         font-size: 15px;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .our_services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 6%;
+    }
+    .services1{
+        margin: 15px;
+    }
+    .img_parc{
+        width: 305px;
+    }
+    /* .image_depannage {
+        display: none;
+    } */
+/* 
+    .logo_reseau, .conseil-informatique-picto2 {
+        display: none;
+    } */
+    .title_section2 p, .title_installation p, .title_gestion_globale p {
+        font-size: 30px;
+        /* text-align: center !important; */
+    }
+    .section2, .section4 {
+       margin: 0px;
+       padding: 10px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .section3 {
+        /* display: flex; 
+         justify-content: space-around; */
+         margin: 0px; 
+    }
+    
+    .title_installation {
+        margin-left: 0px; 
+        padding: 10px;
+    }
+    
+    .temoignage, .temoin1{
+        width: 227px !important;
+    }
+    .temoignage_bloc1, .image_blue {
+        flex-wrap: wrap;
+        padding: 5px;
+        margin-top: 5% !important;
+    }
+    .btn-1{
+        background-color: #1565D4;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-left: 13%;
+     } 
+    
+     .btn-2{
+        background-color: #1565D4;
+        width: 200px !important;
+        height: 50px;
+        border-radius: 20px;
+        border: 1px solid #1565D4;
+        margin-left: 18%;
+        margin-top: 7px;
+     }
+    .our_contacts {
+        background-color: white;
+         /* width: 86% !important;  */
+        height: 306px !important;
+        border-radius: 20px;
+        margin: 0px !important;
+        padding: 10px !important;
+    }
+    form{
+        margin: 0px;
+        padding: 0px;
+        /* width: 310px; */
+    }
+    .tel{
+        /* width: 132px; */
+    }
+    #partenaires {
+        flex-wrap: wrap;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .logo_partenaires{
+        margin-top: 33px;
+    }
+    
+    .logo_partenaires h2 {
+        margin-left: 0%;
+        text-align: center;
+    }
+    .nos_partenaire_logo{
+        width: 168px;
+    }
+   
+    hr{
+        display: none;
+    }
+    #reseaux_sociaux {
+        flex-wrap: wrap;
+    }
+    .tous_reseaux {
+        flex-wrap: wrap;
+    }
+    .vincent_DG P {
+        margin-right: 0px; 
+    }
+    .vincent {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .message{
+        width: 293px;
+    }
+    .bottom_contact {
+        display: flex;
+        margin-right: 0px; 
+    }
+    .reseau3 {
+        padding: 4%; 
+        width: 231px;
+    }
+    /*footer*/
+    hr{
+        display: none;
+    }
+    footer{
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+    .logoreseaux{
+        display: inline-flex !important;
+    }
+    #facebook{
+        margin-left: 50px;
+    }
+    #facebook p{
+        margin-left: 29px;
+    }
+    #twitter{
+        margin-left: 30px;
+    }
+    #twitter p{
+        margin-left: 25px;
+    }
+    .Logo_copyrith{
+       display: none;
+    }
+}
+
+
+
+
+
+
 
