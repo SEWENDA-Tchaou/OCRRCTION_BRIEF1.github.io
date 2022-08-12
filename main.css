@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin: 0;
 }
@@ -43,7 +47,7 @@ h2{
      background-color:  white;
      margin-top: 0px;
      width: 100%;
-     height: 150px;
+     height: 110px;
      z-index: 3;
 }
 
@@ -116,7 +120,9 @@ a{
      color: white;
     text-align: center;
 }
-  
+.section2, .section4 {
+margin-top: 5%;
+}
 .section2{
      display: flex;
      justify-content: space-between;
@@ -149,6 +155,7 @@ a{
      justify-content: space-around;
      margin-right: 5%;
      margin-left: 15%;
+     margin-top: 5%;
 }
 
 .title_installation {
@@ -195,6 +202,7 @@ a{
      width: 300px;
      height: 205px;
      border-radius: 20px;
+     margin: 40px;
 }
 .temoin1{
      background-color: #D6E6DA;
@@ -263,11 +271,30 @@ a{
      height: 557px;
 }
 form{
-     margin-right: 30px;
      margin-top: 70px;
      padding-top: 30px;
 }
+.boutton1 {
+    margin-left: 44%;
 
+}
+.btn-1{
+    background-color: #1565D4;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #1565D4;
+    color: white;
+
+ }
+.btn-2 {
+    background-color: #1565D4;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #1565D4;
+    color: white;
+}
 input{
      border: none;
      outline: none;
@@ -296,11 +323,8 @@ input{
      width: 100%;
      height: 500px;
  }
- #reseaux_sociaux{
-     display: flex;
-     width: 100%;
-     height: 0%;
-     justify-content: space-around;
+ .reseuxsociaux{
+     margin-top: 6px !important;
  }
  .reseau3{
    padding: 10%;
@@ -316,10 +340,6 @@ input{
     display: flex;
 }
 
-hr{
-    margin: 0% 10% 0% 10%;
-    height: 350px;
-}
 .copyrigth{
     display: flex;
     background-color: #C4C4C4;
@@ -338,30 +358,59 @@ hr{
 /* footer*/
 footer{
     background-color: black;
-    display: flex;
 }
-footer p{
-     color: #2196f3;
- }
-p{
-    color: white;
-}
-
-.reseaux-sociaux, .message{
-    display: flex;
-}
+.logoreseaux{
+    display: inline-flex !important;
+    }
+#facebook{
+    margin-left: 50px;
+    }
+#facebook p{
+    margin-left: 29px;
+    }
+#twitter{
+    margin-left: 30px;
+    }
+#twitter p{
+    margin-left: 25px;
+    }
 .Logo_copyrith{
-    display: flex;
     background-color: white;
-    width: 50px;
-    height: 40px;
+    width: 26px;
+    height: 24px;
+    }
+
+#facebook p{
+    width: 190px;
+}
+    
+.footer-right{
+        border-top-style: none;
+    }
+.footer-left{
+        width: 318px !important;
+        text-align: end;
+    }
+.copyright{
+        width: 25px;
+    }
+.foot {
+        margin-left: 0% !important;
+    }
+
+.boutton1 {
+        margin-left: 37% !important;
+    }
+footer p {
+        color: #2196f3;
+        width: 162px !important;
+        font-size: 1rem !important;
+    }
+hr {
+    margin: 0% 10% 0% 10% !important;
+    height: 248px !important;
 }
 
-.ryght{
-    width: 169px;
-    margin-left: 17px;
-    margin-top: 0px;
-}
 /* reponsive 320 */
 @media all and (max-width: 320px){
     body{
@@ -446,15 +495,11 @@ p{
     .nos_partenaire_logo{
         width: 168px;
     }
-    .btn-1{
-        margin-left: 18% !important;
-    }
+    
     /* #en-tête {
         height: 85px !important;
     } */
-    hr{
-        display: none;
-    }
+    
     #reseaux_sociaux {
         flex-wrap: wrap;
     }
@@ -472,7 +517,7 @@ p{
         justify-content: flex-start;
     }
     .message{
-        width: 293px;
+        display: inline-flex !important;
     }
     .bottom_contact {
         display: flex;
@@ -482,18 +527,13 @@ p{
         padding: 4%;
         width: 231px;
     }
-    .image_blue{
+    /* .image_blue{
         width: 308px !important;
-    }
+    } */
 
     /*footer*/
-    hr{
-        display: none;
-    }
-    footer{
-        flex-wrap: wrap;
-        padding: 12px;
-    }
+    
+   
     footer p{
         color: #2196f3;
         width: 162px !important;
@@ -505,9 +545,7 @@ p{
     #facebook{
         margin-left: 50px;
     }
-    #facebook p{
-        margin-left: 29px;
-    }
+
     #twitter{
         margin-left: 30px;
     }
@@ -516,6 +554,10 @@ p{
     }
     .Logo_copyrith{
        display: none;
+    }
+
+    .boutton1 {
+        margin-left: 18% !important;
     }
 }
 
@@ -596,7 +638,6 @@ p{
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 18%;
         margin-top: 7px;
      }
     .our_contacts {
@@ -630,9 +671,6 @@ p{
         width: 168px;
     }
    
-    hr{
-        display: none;
-    }
     #reseaux_sociaux {
         flex-wrap: wrap;
     }
@@ -646,9 +684,7 @@ p{
         display: flex;
         justify-content: flex-start;
     }
-    .message{
-        width: 293px;
-    }
+    
     .bottom_contact {
         display: flex;
         margin-right: 0px; 
@@ -658,22 +694,14 @@ p{
         width: 231px;
     }
     /*footer*/
-    hr{
-        display: none;
-    }
-    footer{
-        flex-wrap: wrap;
-        padding: 12px;
-    }
+   
     .logoreseaux{
         display: inline-flex !important;
     }
     #facebook{
         margin-left: 50px;
     }
-    #facebook p{
-        margin-left: 29px;
-    }
+   
     #twitter{
         margin-left: 30px;
     }
@@ -682,6 +710,12 @@ p{
     }
     .Logo_copyrith{
        display: none;
+    }
+    .foot {
+        padding: 0rem !important;
+    }
+    .boutton1 {
+        margin-left: 22% !important;
     }
 }
 
@@ -722,7 +756,7 @@ p{
     }
     .title_section2 p, .title_installation p, .title_gestion_globale p {
         font-size: 30px;
-        text-align: -webkit-center ;
+        
     }
     .section2, .section4 {
        margin: 0px;
@@ -755,7 +789,7 @@ p{
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 22% !important;
+       
      } 
     
      .btn-2{
@@ -764,7 +798,6 @@ p{
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 18%;
         margin-top: 7px;
      }
     .our_contacts {
@@ -780,6 +813,7 @@ p{
         padding: 0px;
         width: 310px;
     }
+
     .tel{
         width: 132px !important;
     }
@@ -798,10 +832,11 @@ p{
     .nos_partenaire_logo{
         width: 168px;
     }
-   
-    hr{
-        display: none;
+    .image_blue {
+        width: auto;
     }
+   
+   
     #reseaux_sociaux {
         flex-wrap: wrap;
     }
@@ -815,9 +850,7 @@ p{
         display: flex;
         justify-content: flex-start;
     }
-    .message{
-        width: 293px;
-    }
+    
     .bottom_contact {
         display: flex;
         margin-right: 0px; 
@@ -827,12 +860,12 @@ p{
         width: 231px;
     }
     /*footer*/
-    hr{
-        display: none;
-    }
-    footer{
-        flex-wrap: wrap;
-        padding: 12px;
+   hr{
+       display: none;
+   }
+
+    .footer-left {
+        text-align: center;
     }
     .logoreseaux{
         display: inline-flex !important;
@@ -852,6 +885,16 @@ p{
     .Logo_copyrith{
        display: none;
     }
+
+    .footer-right {
+        display: none;
+    }
+    .foot {
+        padding-left: 0rem !important;
+    }
+    .boutton1 {
+        margin-left: 26% !important;
+    }
 }
 
 /* responsive 768*/
@@ -864,6 +907,7 @@ p{
         margin: 0 auto;
         width: 95% !important;
     }
+   
     .logo{
         margin-left: 20px !important;
         width: 30px !important;
@@ -878,6 +922,7 @@ p{
         margin-right: 0px !important;
     }
 
+    
     h2 {
          font-size: 15px;
         text-transform: uppercase;
@@ -901,6 +946,7 @@ p{
     .title_section2 p, .title_installation p, .title_gestion_globale p {
         font-size: 30px;
         /* text-align: justify !important; */
+        text-align: -webkit-center !important;
     }
     .section2, .section4 {
        margin: 0px;
@@ -937,7 +983,7 @@ p{
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 13%;
+       
      } 
     
      .btn-2{
@@ -946,7 +992,6 @@ p{
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 18%;
         margin-top: 7px;
      }
     .our_contacts {
@@ -961,6 +1006,9 @@ p{
         margin: 0px;
         padding: 0px;
         /* width: 320px; */
+    }
+    .image_blue {
+        width: auto;
     }
     .tel{
         width: 200px;
@@ -982,9 +1030,7 @@ p{
         width: 168px;
     }
    
-    hr{
-        display: none;
-    }
+   
     #reseaux_sociaux {
         flex-wrap: wrap;
     }
@@ -998,9 +1044,7 @@ p{
         display: flex;
         justify-content: flex-start;
     }
-    .message{
-        width: 293px;
-    }
+    
     .bottom_contact {
         display: flex;
         margin-right: 0px; 
@@ -1010,33 +1054,32 @@ p{
         width: 231px;
     }
     /*footer*/
-    hr{
-        display: none;
-    }
-    footer{
-        flex-wrap: wrap;
-        padding: 12px;
-    }
-    .logoreseaux{
-        display: inline-flex !important;
-    }
-    #facebook{
-        margin-left: 50px;
-    }
-    #facebook p{
-        margin-left: 29px;
-    }
-    #twitter{
+    
+    .Logo_copyrith {
         margin-left: 30px;
     }
-    #twitter p{
-        margin-left: 25px;
+    hr{
+    margin: 0% 10% 0% 10% !important;
+    height: 200px !important;
     }
-    .Logo_copyrith{
-       display: none;
+    .foot {
+        padding: 0 !important;
+    }
+    .boutton1 {
+        margin-left: 37% !important;
     }
 }
 
+@media all and (min-width: 1024px){
+    .foot {
+        padding-left: 7rem !important;
+        
+    }
+    hr{
+        margin: 0% 22% 0% 22% !important;
+        height: 200px !important;
+        }
+}
 /* responsive 1024 */
 @media all and (max-width: 1024px){
     body{
@@ -1067,12 +1110,10 @@ p{
     .img_parc{
         width: 305px;
     }
-    .image_depannage {
-        display: none;
-    }
+    
     .title_section2 p, .title_installation p, .title_gestion_globale p {
         font-size: 30px;
-        text-align: -webkit-center;
+        text-align: justify;
     }
     .section2, .section4 {
        margin: 0px;
@@ -1086,14 +1127,7 @@ p{
          justify-content: space-around; */
          margin: 0px; 
     }
-    .logo_reseau, .conseil-informatique-picto2 {
-        display: none;
-    }
-    .title_installation {
-        margin-left: 0px; 
-        padding: 10px;
-    
-    }
+
     .temoignage_bloc1, .image_blue {
         flex-wrap: wrap;
         padding: 5px;
@@ -1106,7 +1140,6 @@ p{
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 13%;
      } 
     
      .btn-2{
@@ -1115,7 +1148,6 @@ p{
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 18%;
         margin-top: 7px;
      }
     .our_contacts {
@@ -1151,9 +1183,6 @@ p{
         width: 168px;
     }
    
-    hr{
-        display: none;
-    }
     #reseaux_sociaux {
         flex-wrap: wrap;
     }
@@ -1167,9 +1196,7 @@ p{
         display: flex;
         justify-content: flex-start;
     }
-    .message{
-        width: 293px;
-    }
+
     .bottom_contact {
         display: flex;
         margin-right: 0px; 
@@ -1179,13 +1206,8 @@ p{
         width: 231px;
     }
     /*footer*/
-    hr{
-        display: none;
-    }
-    footer{
-        flex-wrap: wrap;
-        padding: 12px;
-    }
+
+   
     .logoreseaux{
         display: inline-flex !important;
     }
@@ -1202,11 +1224,63 @@ p{
         margin-left: 25px;
     }
     .Logo_copyrith{
-       display: none;
+        background-color: white;
+        width: 26px;
+        height: 24px;
+    }
+
+    #facebook p{
+        width: 190px;
+    }
+    
+   
+    .footer-right{
+        border-top-style: none;
+    }
+    .footer-left{
+        width: 318px !important;
+        text-align: end;
+    }
+    .copyright{
+        width: 25px;
+    }
+    .foot {
+        margin-left: 0% !important;
+    }
+
+    .boutton1 {
+        margin-left: 37% !important;
     }
 }
 
 /* responsive 1440 */
+
+@media all and (min-width: 1440px){
+    .foot {
+        padding-left: 17rem !important;
+        display: flex;
+    }
+    hr{
+        margin: 0% 22% 0% 13% !important;
+        height: 248px !important;
+        }
+     #facebook p{
+         width: 290px;
+    }
+    .logoreseaux {
+        display: flex;
+    }
+    .text-reseaux {
+        margin-left: 50px;
+        width: 200px;
+    }
+    .boutton1 {
+        margin-left: 44% !important;
+    }
+   
+}
+
+
 @media all and (max-width: 1440px){
     body{
         margin: 0%;
@@ -1281,13 +1355,14 @@ p{
         padding: 5px;
         margin-top: 5% !important;
     }
+   
+
     .btn-1{
         background-color: #1565D4;
         width: 200px;
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 13%;
      } 
     
      .btn-2{
@@ -1296,7 +1371,6 @@ p{
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 18%;
         margin-top: 7px;
      }
      .image_blue{
@@ -1312,9 +1386,7 @@ p{
     }
     
     form{
-        margin: 30px;
         padding: 0px;
-        /* width: 310px; */
     }
     .tel{
         /* width: 132px; */
@@ -1336,9 +1408,6 @@ p{
         width: 168px;
     }
    
-    hr{
-        display: none;
-    }
     #reseaux_sociaux {
         flex-wrap: wrap;
     }
@@ -1352,9 +1421,7 @@ p{
         display: flex;
         justify-content: flex-start;
     }
-    .message{
-        width: 293px;
-    }
+
     .bottom_contact {
         display: flex;
         margin-right: 0px; 
@@ -1364,34 +1431,19 @@ p{
         width: 231px;
     }
     /*footer*/
-    hr{
-        display: none;
-    }
-    footer{
-        flex-wrap: wrap;
-        padding: 12px;
-    }
-    .logoreseaux{
-        display: inline-flex !important;
-    }
-    #facebook{
-        margin-left: 50px;
+    .foot {
+        display: flex;
     }
     #facebook p{
-        margin-left: 29px;
+        width: 190px;
     }
-    #twitter{
-        margin-left: 30px;
-    }
-    #twitter p{
-        margin-left: 25px;
-    }
-    .Logo_copyrith{
-       display: none;
+    .boutton1 {
+        margin-left: 40.5% !important;
     }
 }
 
 /* responsive 2560 */
+
 @media all and (max-width: 2560px){
     body{
         margin: 0%;
@@ -1472,7 +1524,6 @@ p{
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 13%;
      } 
     
      .btn-2{
@@ -1481,7 +1532,6 @@ p{
         height: 50px;
         border-radius: 20px;
         border: 1px solid #1565D4;
-        margin-left: 18%;
         margin-top: 7px;
      }
      .image_blue{
@@ -1496,7 +1546,6 @@ p{
         padding: 10px !important;
     }
     form{
-        margin: 30px;
         padding: 0px;
         /* width: 310px; */
     }
@@ -1520,9 +1569,6 @@ p{
         width: 168px;
     }
    
-    hr{
-        display: none;
-    }
     #reseaux_sociaux {
         flex-wrap: wrap;
     }
@@ -1536,9 +1582,7 @@ p{
         display: flex;
         justify-content: flex-start;
     }
-    .message{
-        width: 293px;
-    }
+
     .bottom_contact {
         display: flex;
         margin-right: 0px; 
@@ -1548,31 +1592,9 @@ p{
         width: 231px;
     }
     /*footer*/
-    hr{
-        display: none;
-    }
-    footer{
-        flex-wrap: wrap;
-        padding: 12px;
-    }
-    .logoreseaux{
-        display: inline-flex !important;
-    }
-    #facebook{
-        margin-left: 50px;
-    }
-    #facebook p{
-        margin-left: 29px;
-    }
-    #twitter{
-        margin-left: 30px;
-    }
-    #twitter p{
-        margin-left: 25px;
-    }
-    .Logo_copyrith{
-       display: none;
-    }
+   
+
+   
 }
 
 
