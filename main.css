@@ -12,6 +12,7 @@ body{
     background-size: cover;
 }
 
+
 h2{
     font-size: 50px;
     text-transform:uppercase;
@@ -274,10 +275,7 @@ form{
      margin-top: 70px;
      padding-top: 30px;
 }
-.boutton1 {
-    margin-left: 44%;
 
-}
 .btn-1{
     background-color: #1565D4;
     width: 200px;
@@ -402,9 +400,6 @@ footer{
     margin-left: 0% !important;
     }
 
-.boutton1 {
-    margin-left: 37% !important;
-    }
 footer p {
     color: #2196f3;
     /* width: 162px !important; */
@@ -421,12 +416,17 @@ hr {
 .ryght {
     width: 166px;
 }
+
+
 /* reponsive 320 */
 @media all and (max-width: 320px){
     body{
         margin: 0%;
     }
    
+    .boutton1 {
+        padding: 0 17% !important;
+    }
     .logo{
         margin-left: 0px;
     }
@@ -565,10 +565,6 @@ hr {
     .Logo_copyrith{
        display: none;
     }
-
-    .boutton1 {
-        margin-left: 18% !important;
-    }
 }
 
 /* responsive 375*/
@@ -577,6 +573,11 @@ hr {
     body{
         margin: 0%;
     }
+
+    .boutton1 {
+        padding: 0 20%;
+    }
+
     .logo{
         margin-left: 0px;
     }
@@ -724,9 +725,6 @@ hr {
     .foot {
         padding: 0rem !important;
     }
-    .boutton1 {
-        margin-left: 22% !important;
-    }
 }
 
 /* responsive 425*/
@@ -734,6 +732,10 @@ hr {
 @media all and (max-width: 425px){
     body{
         margin: 0%;
+    }
+
+    .boutton1 {
+        padding: 0 25%;
     }
     .logo{
         margin-left: 0px;
@@ -829,7 +831,7 @@ hr {
     }
     #partenaires {
         flex-wrap: wrap;
-        margin-left: 32% !important;
+        margin-left: 25% !important;
     }
     .logo_partenaires{
         margin-top: 33px;
@@ -903,17 +905,22 @@ hr {
     .foot {
         padding-left: 0rem !important;
     }
-    .boutton1 {
-        margin-left: 26% !important;
-    }
 }
 
 /* responsive 768*/
 
+
+
+@media all and (min-width: 768px){
+    .boutton1 {
+        padding: 0 36% !important;
+    }
+}
 @media all and (max-width: 768px){
     body{
         margin: 0%;
     }
+
     .marge-gauche-droite {
         margin: 0 auto;
         width: 95% !important;
@@ -1077,9 +1084,6 @@ hr {
     }
     .foot {
         padding: 0 !important;
-    }
-    .boutton1 {
-        margin-left: 37% !important;
     }
 }
 
@@ -1259,13 +1263,15 @@ hr {
     .foot {
         margin-left: 0% !important;
     }
-
-    .boutton1 {
-        margin-left: 37% !important;
-    }
 }
 
 /* responsive 1440 */
+
+@media all and (min-width: 1440px){
+    .boutton1 {
+        padding: 0 40% !important;
+    }
+}
 
 @media all and (min-width: 1440px){
     .foot {
@@ -1286,10 +1292,6 @@ hr {
         margin-left: 50px;
         width: 200px;
     }
-    .boutton1 {
-        margin-left: 44% !important;
-    }
-   
 }
 
 
@@ -1452,14 +1454,16 @@ hr {
     #facebook p{
         width: 190px;
     }
-    .boutton1 {
-        margin-left: 40.5% !important;
-    }
+   
 }
 
 /* responsive 2560 */
 
-
+@media all and (min-width: 2560px){
+    .boutton1 {
+        padding: 0 45% !important;
+    }
+}
 @media all and (max-width: 2560px){
     body{
         margin: 0%;
@@ -1608,6 +1612,14 @@ hr {
         width: 231px;
     }
     /*footer*/   
+}
+
+/* responsive 3000px */
+
+/* @media all and (min-width: 2700px){
+    .boutton1 {
+        padding: 0 60% !important;
+    } */
 }
 
 
